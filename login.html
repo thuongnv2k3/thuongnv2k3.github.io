@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- css lai htm thanh  gia tri mac dinh  -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item ">
+                            <a href="mailto:thuongnvps23604@fpt.edu.vn"
+                                class="header__navbar-item-link header__navbar-item-email">
+                                <img src="./assets/images/logoemail.png" alt="" width="10px" height="10px">
+                                thuongnvps23604@fpt.edu.vn
+                                <div class="header__email">
+                                    <h6>thuongnvps23604@fpt.edu.vn</h6>
+                                </div>
+                            </a> |
+                            <a href="tel:09999999999" class="header__navbar-item-link header__navbar-item-call">
+                                <img src="./assets copy/images/phone.png" alt="" width="10px" height="10px">
+                                0999999999
+                                <div class="header__call">
+                                    <h6>0999999999</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-hover">
+                            <a href="" class="header__navbar-item-link ">
+                                <i class="fas fa-bell"></i>
+                                Thông Báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h4>Thông báo mới nhận</h4>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--readed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/images/sanpham1.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Kiếp nào tìm thấy nhau </span>
+                                                <span class="header__notify-description"> Sản phẩm trong giỏ hàng của
+                                                    bạn hiện đang được giảm
+                                                    giá<br> <small><i><del>$300</del> <mark>$119</mark></i></small>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item header__notify-item--readed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/images/sanpham1.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Kiếp nào tìm thấy nhau </span>
+                                                <span class="header__notify-description">Sản phẩm trong giỏ hàng của bạn
+                                                    hiện đang được giảm giá<br>
+                                                    <small><i><del>$300</del> <mark>$119</mark></i></small> </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/images/sanpham1.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Kiếp nào tìm thấy nhau </span>
+                                                <span class="header__notify-description"> Sản phẩm trong giỏ hàng của
+                                                    bạn hiện đang được giảm
+                                                    giá<br>
+                                                    <small><i><del>$300</del> <mark>$119</mark></i></small> </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="#" class="header__notify-footer-a">xem tất cả </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="fa-solid fa-circle-question"></i>
+                                Trợ Giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item-strong header__navbar-item-link-space">
+                            <a href="" class="header__navbar-item header__navbar-item-strong ">Đăng Ký</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item-strong">
+                            <a href="" class="header__navbar-item header__navbar-item-strong">
+                                Đăng Nhập
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+
+        </div>
+        <footer class="footer">
+
+        </footer>
+
+        <!-- modalayout -->
+
+
+        <!-- khung tim kiem -->
+        <div class="header-with-search">
+            <div class="header__logo">
+                <img style="padding-left: 15px;" class="header__logo-img" src="./assets/images/logoweb.png" alt="logoweb">
+            </div>
+            <div class="header__search">
+                <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm ">
+                <div class="header__search-select">
+                    <span class="header__search-select-label">Trong Shop</span>
+                    <i class="header__search-select-icon fas fa-angle-down"></i>
+                    <div class="header__search-option">
+                        <li class="header__search-option-item">
+                            <span>Trong Shop</span>
+                            <i class="fas fa-check"></i>
+                        </li>
+        
+                        <li class="header__search-option-item">
+                            <span>Ngoài Shop</span>
+                            <i class="fas fa-check"></i>
+                        </li>
+        
+                    </div>
+                </div>
+                <button class="header__search-btn">
+                    <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="header_cart">
+                <a href="">
+                    <img style="width: 200px; padding-right: 20px;" class="header_cart-icon" src="./assets/images/giohang.png"
+                        alt="">
+                </a>
+        
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal">
+        <div class="modal__overlay">
+        </div>
+        <div class="modal__body">
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="header__form-headeing">Đăng Nhập</h3>
+                        <span class="header__form-swithch-btn"><a
+                                style="text-decoration: none; color: rgb(238, 75, 43);; font-size: 1.4rem;"
+                                href="./register.html">Đăng Ký</a></span>
+                    </div>
+    
+                    <div class="auth__form-form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form_input" placeholder="Email của bạn">
+                        </div>
+    
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form_input" placeholder="Mật khẩu của bạn ">
+                        </div>
+                    </div>
+    
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-space-color">Quên mật khẩu</a>
+                            <span class="auth-form__help-space"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+    
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal"><a style="text-decoration: none; color: gray; font-size: 1.4rem;"
+                                href="./index.html ">Trở Lại</a></button>
+                        <button class="btn btn--primary">ĐĂNG Nhập</button>
+                    </div>
+    
+    
+                </div>
+    
+                <div class="auth-form__socials auth-form__socials-login ">
+                    <a href="#" class="auth-form__socials-facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fa-brands fa-facebook-square"></i>
+                        &nbsp;Đăng nhập Facebook
+                    </a>
+    
+                    <a href="#" class="auth-form__socials-google auth-form__socials-icon btn btn--size-s btn--with-icon">
+                        <i class="fa-brands fa-google"></i>
+                        &nbsp;&nbsp;Đăng nhập Google
+                    </a>
+    
+                </div>
+    
+    
+            </div>
+    
+        </div>
+    </div>
+
+</body>
+
+</html>

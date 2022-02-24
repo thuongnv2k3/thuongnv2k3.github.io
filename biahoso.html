@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thuongnvps23604</title>
+    <!-- css lai htm thanh  gia tri mac dinh  -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item ">
+                            <a href="mailto:thuongnvps23604@fpt.edu.vn"
+                                class="header__navbar-item-link header__navbar-item-email">
+                                <img src="./assets/images/logoemail.png" alt="" width="10px" height="10px">
+                                thuongnvps23604@fpt.edu.vn
+                                <div class="header__email">
+                                    <h6>thuongnvps23604@fpt.edu.vn</h6>
+                                </div>
+                            </a> |
+                            <a href="tel:09999999999" class="header__navbar-item-link header__navbar-item-call">
+                                <img src="./assets copy/images/phone.png" alt="" width="10px" height="10px">
+                                0999999999
+                                <div class="header__call">
+                                    <h6>0999999999</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-hover">
+                            <a href="" class="header__navbar-item-link ">
+                                <i class="fas fa-bell"></i>
+                                Thông Báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h4>Thông báo mới nhận</h4>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--readed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/images/sanpham1.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Kiếp nào ta cũng tìm thấy nhau </span>
+                                                <span class="header__notify-description"> Sản phẩm trong giỏ hàng của
+                                                    bạn hiện đang được giảm
+                                                    giá<br> <small><i><del>$300</del> <mark>$119</mark></i></small>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item header__notify-item--readed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/images/sanpham1.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Kiếp nào ta cũng tìm thấy nhau </span>
+                                                <span class="header__notify-description">Sản phẩm trong giỏ hàng của bạn
+                                                    hiện đang được giảm giá<br>
+                                                    <small><i><del>$300</del> <mark>$119</mark></i></small> </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/images/sanpham1.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Kiếp nào ta cũng tìm thấy nhau </span>
+                                                <span class="header__notify-description"> Sản phẩm trong giỏ hàng của
+                                                    bạn hiện đang được giảm
+                                                    giá<br>
+                                                    <small><i><del>$300</del> <mark>$119</mark></i></small> </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="#" class="header__notify-footer-a">xem tất cả </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="fa-solid fa-circle-question"></i>
+                                Trợ Giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item-strong header__navbar-item-link-space">
+                            <a href="./register.html" class="header__navbar-item header__navbar-item-strong ">Đăng
+                                Ký</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item-strong">
+                            <a href="./login.html" class="header__navbar-item header__navbar-item-strong">
+                                Đăng Nhập
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--  -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <img style="padding-left: 15px;" class="header__logo-img" src="./assets/images/logoweb.png" alt="logoweb">
+                    </div>
+                    <div class="header__search">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm ">
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong Shop</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+                            <div class="header__search-option">
+                                <li class="header__search-option-item">
+                                    <span>Trong Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+
+                                <li class="header__search-option-item">
+                                    <span>Ngoài Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+
+                            </div>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="header_cart">
+                        <a href="">
+                            <img style="width: 200px; padding-right: 20px;" class="header_cart-icon" src="./assets/images/giohang.png" alt="">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__contai">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="categoty__heading">
+                                <i class="categoty__heading-icon fas fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="./index.html" class="category-item__link">
+                                        Dụng cụ văn phòng
+                                    </a>
+                                </li>
+                
+                                <li class="category-item">
+                                    <a href="./giay.html" class="category-item__link">
+                                        Giấy
+                                    </a>
+                                </li>
+                
+                                <li class="category-item">
+                                    <a href="./biahoso.html" class="category-item__link">
+                                        Bìa hồ sơ
+                                    </a>
+                                </li>
+                
+                                <li class="category-item">
+                                    <a href="./but.html" class="category-item__link">
+                                        Bút viết
+                                    </a>
+                                </li>
+                
+                            </ul>
+                        </nav>
+                    </div>
+                
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">
+                                Sắp xếp theo 
+                            </span>
+                            <button class="home-filter__label_btn btn">Phổ biến </button>
+                            <button class="home-filter__label_btn btn btn--primary">Mới nhất </button>
+                            <button class="home-filter__label_btn btn">Bán chạy  </button>
+                            <div class="select-input">
+                                <span class="selcect-input select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: thấp đến cao </a>
+                                       
+                                    </li>
+                                    <li class="select-input__item">
+                                        
+                                        <a href="" class="select-input__link">Giá: cao đến thấp </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>
+                                    /14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn-distb">
+                                        <i class="home-filter__page-control-icon fas fa-angle-left"></i>
+                                    </a>
+
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-control-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="home-product">
+                            <div class="grid__row">
+
+
+
+<!-- sp -->
+                                <div class="grid__colum-2-4">
+                                    <a class="home-product-item" href="./sanpham.html">
+                                        <div class="home-product-item_img" style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+                                            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+                                            <div class="home-product-item_price">
+                                                <span class="home-product-item_price-old">$300</span>
+                                                <span class="home-product-item_price-new">$199</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__liked">
+                                                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                                                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating">
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__bran">Tiki</span>
+                                                <span class="home-product-item__origin-name">Hàn Quốc</span>
+                                            </div>
+                                        </div>
+
+                                        
+                                    </a>
+                                </div>
+                                <div class="grid__colum-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item_img"
+                                            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+                                            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+                                            <div class="home-product-item_price">
+                                                <span class="home-product-item_price-old">$300</span>
+                                                <span class="home-product-item_price-new">$199</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__liked">
+                                                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                                                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating">
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__bran">Tiki</span>
+                                                <span class="home-product-item__origin-name">Hàn Quốc</span>
+                                            </div>
+                                        </div>
+                                
+                                
+                                    </a>
+                                </div><div class="grid__colum-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item_img"
+                                            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+                                            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+                                            <div class="home-product-item_price">
+                                                <span class="home-product-item_price-old">$300</span>
+                                                <span class="home-product-item_price-new">$199</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__liked">
+                                                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                                                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating">
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__bran">Tiki</span>
+                                                <span class="home-product-item__origin-name">Hàn Quốc</span>
+                                            </div>
+                                        </div>
+                                
+                                
+                                    </a>
+                                </div><div class="grid__colum-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item_img"
+                                            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+                                            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+                                            <div class="home-product-item_price">
+                                                <span class="home-product-item_price-old">$300</span>
+                                                <span class="home-product-item_price-new">$199</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__liked">
+                                                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                                                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating">
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__bran">Tiki</span>
+                                                <span class="home-product-item__origin-name">Hàn Quốc</span>
+                                            </div>
+                                        </div>
+                                
+                                
+                                    </a>
+                                </div><div class="grid__colum-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item_img"
+                                            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+                                            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+                                            <div class="home-product-item_price">
+                                                <span class="home-product-item_price-old">$300</span>
+                                                <span class="home-product-item_price-new">$199</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__liked">
+                                                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                                                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating">
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__bran">Tiki</span>
+                                                <span class="home-product-item__origin-name">Hàn Quốc</span>
+                                            </div>
+                                        </div>
+                                
+                                
+                                    </a>
+                                </div><div class="grid__colum-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item_img"
+                                            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+                                            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+                                            <div class="home-product-item_price">
+                                                <span class="home-product-item_price-old">$300</span>
+                                                <span class="home-product-item_price-new">$199</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like home-product-item__liked">
+                                                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                                                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating">
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="star__gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__bran">Tiki</span>
+                                                <span class="home-product-item__origin-name">Hàn Quốc</span>
+                                            </div>
+                                        </div>
+                                
+                                
+                                    </a>
+                                </div>
+
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end 1 sp -->
+
+<div class="grid__colum-2-4">
+    <a class="home-product-item" href="">
+        <div class="home-product-item_img"
+            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+            <div class="home-product-item_price">
+                <span class="home-product-item_price-old">$300</span>
+                <span class="home-product-item_price-new">$199</span>
+            </div>
+            <div class="home-product-item__action">
+                <span class="home-product-item__like home-product-item__liked">
+                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                </span>
+                <div class="home-product-item__rating">
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+            </div>
+            <div class="home-product-item__origin">
+                <span class="home-product-item__bran">Tiki</span>
+                <span class="home-product-item__origin-name">Hàn Quốc</span>
+            </div>
+        </div>
+
+
+    </a>
+</div><div class="grid__colum-2-4">
+    <a class="home-product-item" href="">
+        <div class="home-product-item_img"
+            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+            <div class="home-product-item_price">
+                <span class="home-product-item_price-old">$300</span>
+                <span class="home-product-item_price-new">$199</span>
+            </div>
+            <div class="home-product-item__action">
+                <span class="home-product-item__like home-product-item__liked">
+                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                </span>
+                <div class="home-product-item__rating">
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+            </div>
+            <div class="home-product-item__origin">
+                <span class="home-product-item__bran">Tiki</span>
+                <span class="home-product-item__origin-name">Hàn Quốc</span>
+            </div>
+        </div>
+
+
+    </a>
+</div><div class="grid__colum-2-4">
+    <a class="home-product-item" href="">
+        <div class="home-product-item_img"
+            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+            <div class="home-product-item_price">
+                <span class="home-product-item_price-old">$300</span>
+                <span class="home-product-item_price-new">$199</span>
+            </div>
+            <div class="home-product-item__action">
+                <span class="home-product-item__like home-product-item__liked">
+                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                </span>
+                <div class="home-product-item__rating">
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+            </div>
+            <div class="home-product-item__origin">
+                <span class="home-product-item__bran">Tiki</span>
+                <span class="home-product-item__origin-name">Hàn Quốc</span>
+            </div>
+        </div>
+
+
+    </a>
+</div><div class="grid__colum-2-4">
+    <a class="home-product-item" href="">
+        <div class="home-product-item_img"
+            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+            <div class="home-product-item_price">
+                <span class="home-product-item_price-old">$300</span>
+                <span class="home-product-item_price-new">$199</span>
+            </div>
+            <div class="home-product-item__action">
+                <span class="home-product-item__like home-product-item__liked">
+                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                </span>
+                <div class="home-product-item__rating">
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+            </div>
+            <div class="home-product-item__origin">
+                <span class="home-product-item__bran">Tiki</span>
+                <span class="home-product-item__origin-name">Hàn Quốc</span>
+            </div>
+        </div>
+
+
+    </a>
+</div><div class="grid__colum-2-4">
+    <a class="home-product-item" href="">
+        <div class="home-product-item_img"
+            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+            <div class="home-product-item_price">
+                <span class="home-product-item_price-old">$300</span>
+                <span class="home-product-item_price-new">$199</span>
+            </div>
+            <div class="home-product-item__action">
+                <span class="home-product-item__like home-product-item__liked">
+                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                </span>
+                <div class="home-product-item__rating">
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+            </div>
+            <div class="home-product-item__origin">
+                <span class="home-product-item__bran">Tiki</span>
+                <span class="home-product-item__origin-name">Hàn Quốc</span>
+            </div>
+        </div>
+
+
+    </a>
+</div><div class="grid__colum-2-4">
+    <a class="home-product-item" href="">
+        <div class="home-product-item_img"
+            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+            <div class="home-product-item_price">
+                <span class="home-product-item_price-old">$300</span>
+                <span class="home-product-item_price-new">$199</span>
+            </div>
+            <div class="home-product-item__action">
+                <span class="home-product-item__like home-product-item__liked">
+                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                </span>
+                <div class="home-product-item__rating">
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+            </div>
+            <div class="home-product-item__origin">
+                <span class="home-product-item__bran">Tiki</span>
+                <span class="home-product-item__origin-name">Hàn Quốc</span>
+            </div>
+        </div>
+
+
+    </a>
+</div><div class="grid__colum-2-4">
+    <a class="home-product-item" href="">
+        <div class="home-product-item_img"
+            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+            <div class="home-product-item_price">
+                <span class="home-product-item_price-old">$300</span>
+                <span class="home-product-item_price-new">$199</span>
+            </div>
+            <div class="home-product-item__action">
+                <span class="home-product-item__like home-product-item__liked">
+                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                </span>
+                <div class="home-product-item__rating">
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+            </div>
+            <div class="home-product-item__origin">
+                <span class="home-product-item__bran">Tiki</span>
+                <span class="home-product-item__origin-name">Hàn Quốc</span>
+            </div>
+        </div>
+
+
+    </a>
+</div><div class="grid__colum-2-4">
+    <a class="home-product-item" href="">
+        <div class="home-product-item_img"
+            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+            <div class="home-product-item_price">
+                <span class="home-product-item_price-old">$300</span>
+                <span class="home-product-item_price-new">$199</span>
+            </div>
+            <div class="home-product-item__action">
+                <span class="home-product-item__like home-product-item__liked">
+                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                </span>
+                <div class="home-product-item__rating">
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+            </div>
+            <div class="home-product-item__origin">
+                <span class="home-product-item__bran">Tiki</span>
+                <span class="home-product-item__origin-name">Hàn Quốc</span>
+            </div>
+        </div>
+
+
+    </a>
+</div><div class="grid__colum-2-4">
+    <a class="home-product-item" href="">
+        <div class="home-product-item_img"
+            style="background-image: url(https://salt.tikicdn.com/cache/400x400/ts/product/d2/5d/40/342ec5fb60349faee8ca1be470549aeb.jpg.webp); width: 190px;">
+            <h4 class="home-product-item_name">File còng bật Plus khổ F (5cm, 7cm, 9cm)</h4>
+            <div class="home-product-item_price">
+                <span class="home-product-item_price-old">$300</span>
+                <span class="home-product-item_price-new">$199</span>
+            </div>
+            <div class="home-product-item__action">
+                <span class="home-product-item__like home-product-item__liked">
+                    <i class="home-product-item__like-nolike far fa-heart"></i>
+                    <i class="home-product-item__like-fill fas fa-heart"></i>
+                </span>
+                <div class="home-product-item__rating">
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="star__gold fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="ddd">&nbsp;&nbsp;1.233 đã bán</span>
+            </div>
+            <div class="home-product-item__origin">
+                <span class="home-product-item__bran">Tiki</span>
+                <span class="home-product-item__origin-name">Hàn Quốc</span>
+            </div>
+        </div>
+
+
+    </a>
+</div>
+
+
+                                
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Chăm sóc khách hàng </h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Giới thiệu </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Văn phòng phẩm </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Giới thiệu </h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Giới thiệu công ty </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Tìm siêu thị </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Gửi Góp ý thiếu nại</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Về Tickid </h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Giới thiệu về tickid Việt Nam</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Tuyển dụng </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">Điều khoản tickID</a>
+                            </li>
+                        </ul>
+                        
+
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="fa-brands fa-facebook" style="font-size: 1.6rem;"></i>
+                                    Facebook</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="fa-brands fa-instagram-square" style="font-size: 1.6rem;"></i>
+                                    Instagram</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item_link">
+                                    <i class="fa-brands fa-linkedin" style="font-size: 1.6rem;"></i>
+                                    Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading" >Địa chỉ   </h3>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=12Tvvf37toh5w2ECHjLWLXbCK3YtSH3xH&ehbc=2E312F" width="380"
+                            height="200px"></iframe>
+                    </div> 
+
+                </div>
+
+            </div>
+        </footer>
+    </div>
+    </div>
+    <div class="chat">
+        <script src="https://uhchat.net/code.php?f=1e5570"></script>
+    </div>
+</body>
+
+</html>
